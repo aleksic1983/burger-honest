@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#home{
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 10px 30px;
+    position: fixed;
+    top: 17px;
+    margin: auto 50px;
+}
+
+header{
+    max-width: 1100px;
+    margin: 30px auto;
+    /* overflow: visible; */
+}
+
+body{
+    background-color: rgb(29, 48, 18);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main{
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.navbar{
+    display: flex;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 10px 30px;
+}
+
+.navbar a:hover{
+    color: rgb(29, 48, 18);
+    background-color: white;
+}
+
+.navbar1{
+    list-style-type: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0;
+    padding: 30px;
+    font-weight: bolder;
+    width: 1100px;
+    position: fixed;
+    top: 80px;
+}
+
+.navbar1 a{
+    text-decoration: none;
+    color: rgb(29, 48, 18);
+    padding: 10px 30px;
+    border-right: 1px solid grey;
+}
+
+.navbar1 > :last-child a{
+    border: none;
+}
+
+.navbar2 > :last-child a{
+    border: none;
+}
+
+.navbar1 a:hover{
+    text-decoration: underline;
+}
+
+.navbar2 a:hover{
+    text-decoration: underline;
+}
+
+.navbar2{
+    list-style-type: none;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 140px;
+}
+
+.navbar2 a{
+    text-decoration: none;
+    color: rgb(29, 48, 18);
+    padding: 10px 30px;
+    border-right: 1px solid grey; 
+}
+
+.section{
+    background-color: rgb(182, 227, 212);
+    margin: 30px 0;
+}
+
+.section2{
+    background-color: rgb(182, 227, 212);
+    display: flex;
+}
+
+h1,
+h2,
+h3,
+p{
+    color: rgb(29, 48, 18);
+}
+
+h1{
+    text-align: center;
+    /* margin: 30px auto; */
+    padding: 30px;
+}
+
+.h1{
+    text-align: center;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* max-width: 32%; */
+    text-align: center;
+    flex-basis: 300px;
+}
+
+.card a{
+    width: 100%;
+    border: 3px solid rgb(29, 48, 18);
+    /* text-align: center; */
+    text-decoration: none;
+    height: 250px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card a:hover{
+    background-color: lightgray;
+}
+
+#last{
+    height: 250px;
+    width: 300px;
+    border: 3px solid rgb(29, 48, 18);
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    border: 3px, solid rgb(29, 48, 18);
+    min-height: 70px;
+}
+
+.sides{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 3px solid rgb(29, 48, 18);
+    height: 600px;
+    padding: 30px;
+}
+
+.sidesr{
+    /* flex-grow: 1; */
+}
+
+.d{
+    border: 3px solid rgb(29, 48, 18);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.s{
+    text-align: left;
+}
+
+footer{
+    background-color: white;
+    border-top: 10px solid lightgray;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer{
+    color: rgb(29, 48, 18);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+.footercard{
+    text-align: center;
+    flex: 0 0 33%;
+}
+
+.footercard ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footercard a{
+    text-decoration: none;
+    color: rgb(29, 48, 18);
+}
+
+h6{
+    font-size: 1.5em;
+}
+
+#up:hover{
+    background-color: rgb(29, 48, 18);
+    color: white;
+}
+
+footer a{
+    color: rgb(29, 48, 18);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer p{
+    color: rgb(29, 48, 18);
+}

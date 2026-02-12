@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(29, 48, 18);
+    /* color: white; */
+}
+
+div{
+    background-color: white;
+    border: 30px solid lightgray;
+    padding: 20px;
+    width: 700px;
+    height: 400px;
+}
