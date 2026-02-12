@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(29, 48, 18);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home{
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding: 10px 30px;
+    margin: 17px 50px;
+    position: fixed;
+    top: 17px
+}
+
+main{
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+header{
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.navbar{
+    display: flex;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+
+.navbar a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 3px solid white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.navbar a:hover{
+    color: rgb(29, 48, 18);
+    background-color: white;
+}
+
+.card{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 30px 0;
+}
+
+div{
+    border: 3px solid white;
+}
+
+h2{
+    color: white;
+    border-bottom: 3px solid white;
+    padding: 30px 10px;
+    background-color: rgb(29, 48, 18)
+}
+
+.txt{
+    color: rgb(29, 48, 18);
+    background-color: white;
+    /* padding: 10px; */
+}
+
+.txt p{
+    padding-left: 10px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cardoffer{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    border: none;
+}
+
+.offer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 0 32%;
+}
+
+.offer .txt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button:hover{
+    background-color: rgb(29, 48, 18);
+    color: white;
+}
+
+h1{
+    border: 6px solid white;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.bigger, img{
+    flex: 0 0 70%;
+    
+}
+
+.txt1{
+    background-color: lightgray;
+    color: rgb(29, 48, 18);
+    padding: 30%;
+    /* font-size: 3em; */
+}
+
+.txt2{
+    color: rgb(29, 48, 18);
+}
+
+.button{
+    color: rgb(29, 48, 18);
+    background-color: white;
+    border: 3px solid rgb(29, 48, 18);
+    padding: 10px;
+    margin: 10px;
+}
+
+.sing{
+    color: rgb(29, 48, 18);
+    background-color: lightgray;
+    margin: 30px auto;
+    padding: 30px 10px 50px 10px;
+    text-align: center;
+}
+.sing a{
+    background-color: #ffb000;
+    color: rgb(29, 48, 18);
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* a.sing:hover{
+    color: white;
+    background-color: rgb(29, 48, 18);
+} */
+
+#menu{
+    background-color: lightgray;
+    padding: 50px;
+    text-align: center;
+}
+
+.menu{
+    text-decoration: none;
+    color: rgb(29, 48, 18);
+    border: 6px solid rgb(29, 48, 18);
+    padding: 10px 20px;
+    font-size: 1.8em;
+    font-weight: 1000;
+}
+
+a.menu:hover{
+    background-color: rgb(29, 48, 18);
+    color: white;
+}
+/* footer */
+footer{
+    background-color: white;
+    border-top: 10px solid lightgray;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer{
+    color: rgb(29, 48, 18);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+.footercard{
+    text-align: center;
+    flex: 0 0 33%;
+}
+
+.footercard ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footercard a{
+    text-decoration: none;
+    color: rgb(29, 48, 18);
+}
+
+h6{
+    font-size: 1.5em;
+}
+
+#up:hover{
+    background-color: rgb(29, 48, 18);
+    color: white;
+}
+
+footer a{
+    color: rgb(29, 48, 18);
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer p{
+    color: rgb(29, 48, 18);
+}
+
+
+
